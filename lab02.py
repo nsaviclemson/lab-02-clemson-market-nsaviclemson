@@ -42,7 +42,7 @@ total_cost = totalchips + totalturkey + totalbanana
 
 
 # TODO: Format below output correctly
-print(f"Your total before tax is {total_cost:.2f}.")
+print(f"Your total before tax is ${total_cost:.2f}.")
 #making sure that the cost is only 2 decimal places
 
 print("Please enter the tax rate:")
@@ -55,5 +55,5 @@ total_total = total_tax_cost + total_cost
 #total cost and the tax rate added onto it
 
 # TODO: Format below output correctly
-print(f"Your total after tax is {total_total:.2f}. Thank you for shopping at the Clemson Market!")
+print(f"Your total after tax is ${total_total:.2f}. Thank you for shopping at the Clemson Market!")
 #The total end calculation with the printed text
